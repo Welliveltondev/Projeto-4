@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color:rgba(212, 148, 148, 0.356);
+}
+
 .container {
     max-width: 1024px;
     width: 100%;
@@ -110,4 +114,31 @@ button {
         padding: 10px;
         text-align: center;
     }
+}
+
+
+.combo {
+    margin-top: 34px;
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer p {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.combo__list__item {
+    list-style: none;
+}
+
+.combo__list__item img {
+   max-width: 100%;
 }
